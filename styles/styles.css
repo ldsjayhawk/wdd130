@@ -10,13 +10,41 @@ nav a {
 }
 
 h1 {
-    color:steelblue;
+    color: steelblue;
 }
-
-img {
+ 
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+main{
+    max-width: 840px;
+}
+
+aside{
+    width: 500px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: silver;
+    color: #004687;
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+p{
+    padding: 0;
+}
+
+footer{
+    margin-top: 50px;
+    border-top: 1px dashed #004687;
+    text-align: center;
 }
