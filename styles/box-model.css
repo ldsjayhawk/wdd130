@@ -1,11 +1,11 @@
 .callout {
     max-width: 400px;
-    margin-top: 1em;
+    margin-top: 10px;
     margin-left: 1em;
     margin-bottom: 1em;
     margin-right: 1em;
-    border: 1px;
-    padding: 1px;
+    border: 1px solid #000000;
+    padding: 15px;
     background-color: #005175;
     color: #ffffff;
 }
