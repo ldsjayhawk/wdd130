@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap')
+
+body{
+    font-family: var(Zen+Kaku+Gothic+New);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    primary-color: #ffffff;
+    secondary-color: #0f084b;
+    accent1-color: #007cbeff;
+    accent2-color: #d0fcb3;
+        
+    --https://coolors.co/d0fcb3-ffffff-007cbe-0f084b
+    
+    heading-font , sans-serif;
+    paragraph-font:  #0f084b, sans-serif;
+    
+    nav-background-color: ;
+    nav-link-color: ;
+    nav-hover-link-color: ;
+    nav-hover-background-color: ;
+}
