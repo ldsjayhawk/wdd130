@@ -1,24 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap')
-
-body{
-    font-family: var(Zen+Kaku+Gothic+New);
-    max-width: 960px;
-    padding: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
 :root{
-    primary-color: #ffffff;
-    secondary-color: #0f084b;
-    accent1-color: #007cbeff;
-    accent2-color: #d0fcb3;
+    --primary-color: #ffffff;
+    --secondary-color: #0f084bff;
+    --accent1-color: #007cbeff;
+    --accent2-color: #d0fcb3ff;
         
-    --https://coolors.co/d0fcb3-ffffff-007cbe-0f084b
+    /*https://coolors.co/d0fcb3-ffffff-007cbe-0f084b*/
     
-    heading-font , sans-serif;
-    paragraph-font:  #0f084b, sans-serif;
+    --heading-font: Zen+Kaku+Gothic+New, sans-serif;
+    --paragraph-font: Zen+Kaku+Gothic+New, sans-serif;
     
-    nav-background-color: ;
-    nav-link-color: ;
-    nav-hover-link-color: ;
-    nav-hover-background-color: ;
-}
+    --nav-background-color: #ffffffff;
+    --nav-link-color: #0f084bff;
+    --nav-hover-link-color: #007cbeff;
+    --nav-hover-background-color: #d0fcb3ff;
+}   
+
+    body {
+        font-family: var(--paragraph-font);
+        max-width: 960px;
+        padding: 20px;
+    }
+    
+    h1,h2,h3,h4,h5,h6 {
+        font-family: var(--heading-font);
+        color: var(--secondary-color);
+    }
+
+    header {
+        padding: 20px;
+        color: var(--accent2-color)
+    }
+
+    p {
+        padding: 25px
+    }
+
+    nav {
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display: flex;
+    }
+
+    nav a {
+        display:block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    nav a:link, nav a:visited {
+        color: var(--nav-hover-link-color);
+    }
+
+    nav a:hover {
+        color: var(--nav-hover-link-color);        
+    }   
