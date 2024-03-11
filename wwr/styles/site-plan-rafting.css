@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
 
 :root{
-    --primary-color: #ffffff;
-    --secondary-color: #0f084bff;
+    --primary-color: #0f084bff;
+    --secondary-color: #ffffff;
     --accent1-color: #007cbeff;
     --accent2-color: #d0fcb3ff;
         
     /*https://coolors.co/d0fcb3-ffffff-007cbe-0f084b*/
     
-    --heading-font: Zen+Kaku+Gothic+New, sans-serif;
-    --paragraph-font: Zen+Kaku+Gothic+New, sans-serif;
+    --heading-font: Sanchez, serif;
+    --paragraph-font: Sanchez, serif;
     
-    --nav-background-color: #ffffffff;
+    --nav-background-color: #d0fcb3ff;
     --nav-link-color: #0f084bff;
     --nav-hover-link-color: #007cbeff;
     --nav-hover-background-color: #d0fcb3ff;
@@ -25,12 +25,12 @@
     
     h1,h2,h3,h4,h5,h6 {
         font-family: var(--heading-font);
-        color: var(--secondary-color);
+        color: var(--primary-color);
     }
 
     header {
         padding: 20px;
-        color: var(--accent2-color)
+        color: var(--accent1-color)
     }
 
     p {
