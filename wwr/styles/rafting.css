@@ -12,10 +12,13 @@
     --paragraph-font: Sanchez, serif;
     
     --nav-background-color: #d0fcb3ff;
-    --nav-link-color: #0f084bff;
-    --nav-hover-link-color: #007cbeff;
+    --nav-link-color:#007cbeff;
+    --nav-hover-link-color:#ffffff;
     --nav-hover-background-color: #d0fcb3ff;
+
+    --background-color: #0f084bff;
 }   
+
 
 body {
     font-family: var(--paragraph-font);
@@ -26,14 +29,26 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    
+}
+
+h1 {
+    position: absolute;
 }
 
 header {
     padding: 20px;
-    color: var(--accent1-color)
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--accent1-color);
+    /* background-color: var(--accent1-color); */
     font-weight: bold;
 }
 
+header img {
+    float: center;
+}
+    
 p {
     padding: 25px
 }
@@ -46,19 +61,42 @@ nav {
 
 nav a {
     display:block;
-    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-hover-link-color);
+nav a:link , nav a:visited {
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
     color: var(--nav-hover-link-color);        
 }   
 
-footer {
-    background-color: ;
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
+
+/* article {
+    position: absolute;
+}
+
+article img {
+    float: right; 
+} */
+
+footer {
+    background-color: var(--nav-background-color);
+}
+
+footer a:link {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--nav-hover-link-color);
+    text-decoration: none;     
+}   
