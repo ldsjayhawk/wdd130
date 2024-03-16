@@ -17,7 +17,8 @@
     --nav-hover-background-color: #d0fcb3ff;
 
     --background-color: #0f084bff;
-}   
+    --article-background-color: rgba(194,234,255,0.6) /* #c2eaff; */
+}
 
 body {
     font-family: var(--paragraph-font);
@@ -84,30 +85,33 @@ nav a:hover {
 
 .hero article {
     position: absolute;
-    font-family: var(--paragraph-font);
+    background-color: var(--article-background-color);
+    /* opacity: 0.6; */
     z-index: 3;
     top: 100%;
     left: 5%;
-    width: 60%;
+    width: 55%;
     height: 30%;
 }
 
 .hero p{
+    padding: 35px;
     width: 50%;
     color: var(--primary-color);
-    background-color: var(--accent1-color);
-    opacity: 0.6;
-    top: -65%;
+    font-family: var(--paragraph-font);'
     right: 0%;
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 
 /* pretty sure this is wrong */ 
 #happy {
-    top: -65%;
-    right: 5%;
-    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    top: -80%;
+    right: 0%;
+    width: 30%;
     height: auto;
     float: right;
 }
