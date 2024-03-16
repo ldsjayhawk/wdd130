@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {
 
 header {
     padding: 20px;
-    color: var(--accent1-color)
+    color: var(--accent1-color);
     font-weight: bold;
 }
 
@@ -58,10 +58,6 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);        
 }   
-
-footer {
-    background-color: ;
-}
 
 .social img{
     width: 10px;
