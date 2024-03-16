@@ -85,19 +85,29 @@ nav a:hover {
 .hero article {
     position: absolute;
     font-family: var(--paragraph-font);
-    color: var(--primary-color);
     z-index: 3;
     top: 100%;
     left: 5%;
-    width: 40%;
+    width: 60%;
     height: 30%;
-    text-align: center;
+}
+
+.hero p{
+    width: 50%;
+    color: var(--primary-color);
     background-color: var(--accent1-color);
     opacity: 0.6;
+    top: -65%;
+    right: 0%;
+    width: 50%;
+    height: auto;
 }
 
 #happy {
-    width: 20%;
+    top: -65%;
+    right: 5%;
+    width: 40%;
+    height: auto;
     float: right;
 }
 
