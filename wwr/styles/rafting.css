@@ -100,9 +100,10 @@ nav a:hover {
     color: var(--primary-color);
     font-family: var(--paragraph-font);
     right: 0%;
+    width: 60%;
+    height: auto;
 }
 
-/* pretty sure this is wrong */ 
 #happy {
     padding-top: 5px;
     padding-bottom: 10px;
