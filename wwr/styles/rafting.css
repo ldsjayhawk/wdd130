@@ -91,11 +91,11 @@ nav a:hover {
     top: 100%;
     left: 5%;
     width: 55%;
-    height: 30%;
+    height: 25%;
 }
 
 .hero p{
-    padding: 35px;
+    padding: 20px;
     width: 50%;
     color: var(--primary-color);
     font-family: var(--paragraph-font);
@@ -105,10 +105,10 @@ nav a:hover {
 }
 
 #happy {
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 10px;
     padding-right: 20px;
-    top: -80%;
+    top: 0%;
     width: 30%;
     height: auto;
     float: right;
