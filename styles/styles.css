@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Markazi+Text&display=swap');
+
+:root {
+    --heading-font: Markazi Text, sans-serif;
+    --paragraph-font: Figtree, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header, footer {
+body {
+    font-family: var(--paragraph-font);
+}
+
+header, .grid, footer {
     max-width: 840px;
     align-items: center;
+}
+
+h1 {
+    color: #004687;
+    border-bottom-style: solid;
+    border-color: #004687;
+    border-width: 2px;
+    font-family: var(--heading-font);
 }
 
 nav {
@@ -20,7 +39,6 @@ nav {
 nav a {
     color:white;
     display: block;
-    font-weight: strong;
     padding: 5px;
     text-decoration: none;
 }
@@ -31,19 +49,19 @@ nav a:hover {
     border-color: white;
     border-width: 2px;
     border-radius: 25px;
+}
 
 nav a:visited {
     color:white;
 }
 
-h1 {
-    color: white;
-    background-color: #004687;
-    border-bottom-style: solid;
-    border-color: #004687;
-    border-width: 2px;
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
 }
- 
+
 main img {
     width: 150px;
     height: auto;
@@ -54,18 +72,23 @@ main img {
 }
 
 aside {
-    width: 30em;
-    margin: 10px;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
     border: 2px;
     text-align: center;
     position: relative;
-    background-color: #004687;
+    background-color: #bbdeff;
+    order: -1;
 }
 
 aside h2 {
     position: absolute;
-    top: 10px;
-    left: 130px;
+    top: 25px;
+    left: 120px;
+    color: #ffffff;
+    font-family: var(--heading-font);
 }
 
 aside img{
@@ -74,7 +97,7 @@ aside img{
 }
 
 p{
-    padding: 0;
+    padding: 10px;
 }
 
 footer{
@@ -85,9 +108,21 @@ footer{
 
 /* Class Selectors */
 .box {
-    margin: 1rem;
+    margin: 10px;
+    padding: 10px;
     border: 1px;
     padding: 1rem;
-    background-color: #004687;
-    color: #ffffff; 
+    background-color: #bbdeff;
+}
+
+.box a {
+    color: #004687;
+    padding: 10px;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: white;
 }
