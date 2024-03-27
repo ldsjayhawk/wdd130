@@ -15,7 +15,7 @@ body {
     font-family: var(--paragraph-font);
 }
 
-header, .grid, footer {
+header, footer, .grid {
     max-width: 840px;
     align-items: center;
 }
