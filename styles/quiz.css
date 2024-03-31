@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+:root {
+    --heading-font: Nunito Sans, sans serif;
+    --paragraph-font: Nunito Sans, sans serif;
+}
+
+
+form {
+    background-color: #bed1ff;
+    max-width: 800px;
+    font-family: var(--paragraph-font);
+}
+
+input, select {
+    margin: 10px;
+    height: auto;
+}
+
+button {
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    color: #001b5b;
+    font-weight: bold;
+}
+
+h1 {
+
+}
