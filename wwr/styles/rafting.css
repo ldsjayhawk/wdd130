@@ -214,15 +214,20 @@ footer a:hover {
 }   
 
 /*contact page*/
-.google-maps{
-    width:45%;
-    float: right;
+.contact-info-header{
+    align-items: center;
+    width: 95%;
+}
+
+.contact-info{
+    padding: 0;
 }
 
 form{
-    width: 45%;
-    margin-bottom: 10px;
+    width: 75%;
     background-color : transparent;
+    border-color: transparent;
+    margin-bottom: 20px;
 }
 
 button {
@@ -232,4 +237,16 @@ button {
     color: var(--secondary-color);
     font-weight: bold;
     font-size: 16px;
+}
+.contact_info_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+fieldset{
+    border: 0;
+    padding-left: 12%;}
+
+}
+.form-title{
+    background-color: transparent;
 }
