@@ -237,7 +237,7 @@ footer a:hover {
 }
 
 form{
-    width: 45%;
+    width: 100%;
     background-color : transparent;
     border-color: transparent;
     margin-bottom: 20px;
@@ -263,3 +263,4 @@ button {
     grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
 }
+
