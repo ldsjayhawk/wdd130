@@ -223,13 +223,23 @@ footer a:hover {
     padding: 0;
 }
 
+.contact_info_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact_form_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 form{
-    width: 75%;
+    width: 45%;
     background-color : transparent;
     border-color: transparent;
     margin-bottom: 20px;
 }
-
+    
 button {
     padding: 10px;
     width: 150px;
@@ -238,15 +248,10 @@ button {
     font-weight: bold;
     font-size: 16px;
 }
-.contact_info_grid{
+
+.employee {
+    width: 45%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-fieldset{
-    border: 0;
-    padding-left: 12%;}
-
-}
-.form-title{
-    background-color: transparent;
+    flex-wrap: wrap;
 }
