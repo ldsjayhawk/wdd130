@@ -127,6 +127,9 @@ h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
+}
+
+h2{
     background-color: var(--accent2-color);
 }
 
@@ -239,6 +242,10 @@ form{
     border-color: transparent;
     margin-bottom: 20px;
 }
+
+fieldset{
+    border-color: transparent;
+}
     
 button {
     padding: 10px;
@@ -251,6 +258,7 @@ button {
 
 .employee {
     width: 45%;
+    height: 150px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
