@@ -70,11 +70,6 @@ nav a:link ,nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-}
-
-
 h1{
     position: absolute;
     font-family: var(--heading-font);
@@ -323,29 +318,113 @@ contact h2 {
 .home-grid-one {
     grid-column: 1/2;
     grid-row: 1;
-  }
+    text-align: center; 
+ }
 
   .home-grid-two {
     grid-column: 2/3;
     grid-row: 1;
+    text-align: center; 
   }
 
   .home-grid-form {
     grid-column: 3/4;
     grid-row: 1/3;
     float: right;
+    text-align: center; 
+
   }
 
   .home-grid-four {
     grid-column: 1/2;
     grid-row: 2;
+    text-align: center;
   }
 
   .home-grid-five {
     grid-column: 2/3;
     grid-row: 2;
+    text-align: center;
   }
 
 figcaption {
     text-align: center;
+}
+
+/*trips*/
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.trips-one {
+    grid-column: 1/2;
+    grid-row: 1;
+ }
+
+  .trips-two {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+
+  .trips-three {
+    grid-column: 3/4;
+    grid-row: 1;
+    float: right;
+  }
+
+  .trips-four {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .trips-five {
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+
+  .trips-six {
+    grid-column: 3/4;
+    grid-row: 2;
+  }
+
+  .action-contact {
+    text-align: center;
+    background-color: var(--article-background-color);
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.trip-table {
+    align-items: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+#blue {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    border: var(--accent1-color) 1px;
+}
+
+th {
+    background-color: var(--accent2-color);
+    border-bottom: 1px solid var(--accent1-color);
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid var(--accent1-color);
+    border-right: 1px solid var(--accent1-color);
+
 }
