@@ -217,7 +217,7 @@ footer img {
 }
 
 footer a:link {
-    color: var(--nav-link-color);
+    color: var(--nav-hover-link-color);
 }
 
 footer a:hover {
