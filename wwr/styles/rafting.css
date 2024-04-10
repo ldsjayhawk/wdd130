@@ -70,6 +70,10 @@ nav a:link ,nav a:visited {
     color: var(--nav-link-color);
 }
 
+nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+
 h1{
     position: absolute;
     font-family: var(--heading-font);
@@ -302,10 +306,6 @@ contact h2 {
     text-align: center;
     background-color: var(--article-background-color);
     padding: 10px;
-}
-
-.home a:hover {
-        color: var(--nav-link-color);
 }
 
 .home-grid {
