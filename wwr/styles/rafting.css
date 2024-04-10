@@ -411,7 +411,7 @@ table {
     text-align: center;
     }
 
-#blue {
+.blue {
     background-color: var(--accent1-color);
     color: var(--secondary-color);
     border: var(--accent1-color) 1px;
