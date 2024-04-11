@@ -84,7 +84,8 @@ h1{
 }
 
 .hero h1 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .home h1 {
